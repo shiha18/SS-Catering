@@ -13,7 +13,7 @@
 .top{background:var(--brown);color:#fff;text-align:center;font-size:13px;padding:8px}.header{position:sticky;top:0;z-index:100;background:rgba(255,250,241,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:25px}
 .logo{display:flex;align-items:center;gap:12px;min-width:220px}.logo img{width:68px;height:68px;object-fit:contain}.logo b{font:700 23px "Playfair Display";display:block}.logo small{font-size:10px;letter-spacing:1.5px;color:var(--green);font-weight:700}
 .navlinks{display:flex;align-items:center;gap:25px;font-size:14px;font-weight:700}.navlinks a:hover{color:var(--red)}.wa{background:#1da851;color:#fff;padding:12px 18px;border-radius:999px;font-weight:800;white-space:nowrap}
-.hero{min-height:610px;background:linear-gradient(90deg,rgba(37,18,9,.95),rgba(37,18,9,.72) 42%,rgba(37,18,9,.18)),url("assets/biriyani.jpg") center/cover;display:flex;align-items:center;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-8%;bottom:-120px;width:60%;height:240px;background:var(--cream);border-radius:50%}
+.hero{min-height:610px;background:linear-gradient(90deg,rgba(37,18,9,.95),rgba(37,18,9,.72) 42%,rgba(37,18,9,.18)),url("biriyani.jpg") center/cover;display:flex;align-items:center;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-8%;bottom:-120px;width:60%;height:240px;background:var(--cream);border-radius:50%}
 .hero-content{position:relative;z-index:2;color:#fff;max-width:700px;padding:75px 0}.eyebrow{color:#f0bd4d;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:800}.hero h1{font:600 clamp(48px,6vw,76px)/1.05 "Playfair Display";margin:15px 0}.hero h1 span{font-family:Pacifico;color:#f1bd4c;font-size:.72em}.hero p{font-size:18px;color:#f7eee4;max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:0;border-radius:999px;padding:13px 21px;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}.primary{background:#efba48;color:var(--brown)}.outline{border:1px solid #fff;color:#fff;background:rgba(255,255,255,.08)}.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}.badge{padding:8px 12px;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.1);border-radius:999px;font-size:12px}
 section{padding:85px 0}.head{text-align:center;max-width:720px;margin:0 auto 40px}.kicker{font-size:12px;text-transform:uppercase;letter-spacing:2px;color:var(--green);font-weight:800}.head h2{font:600 clamp(34px,5vw,50px)/1.1 "Playfair Display";margin:9px 0}.head p{color:var(--muted)}
 .about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-photo{border-radius:30px;overflow:hidden;box-shadow:var(--shadow);background:#e7d3b7}.about-photo img{width:100%;height:500px;object-fit:cover}.about-copy p{color:var(--muted)}.features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.feature{background:#fff;border:1px solid var(--line);border-radius:18px;padding:17px}.feature strong{display:block}.feature span{font-size:13px;color:var(--muted)}
@@ -33,7 +33,7 @@ footer{background:#26130b;color:#dfd0c1;padding:32px 0}.foot{display:flex;justif
 
 <header class="header">
 <div class="container nav">
-<a class="logo" href="#home"><img src="assets/logo.png" alt="SS Catering logo"><span><b>SS Catering</b><small>THE TASTE OF MOM</small></span></a>
+<a class="logo" href="#home"><img src="logo.png" alt="SS Catering logo"><span><b>SS Catering</b><small>THE TASTE OF MOM</small></span></a>
 <nav class="navlinks">
 <a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#catering">Catering</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
 </nav>
@@ -51,7 +51,7 @@ footer{background:#26130b;color:#dfd0c1;padding:32px 0}.foot{display:flex;justif
 </div></div></section>
 
 <section id="about"><div class="container about">
-<div class="about-photo"><img src="assets/biriyani.jpg" alt="SS Catering homemade biriyani"></div>
+<div class="about-photo"><img src="biriyani.jpg" alt="SS Catering homemade biriyani"></div>
 <div class="about-copy"><div class="kicker">About SS Catering</div><h2>Good food starts with good care.</h2>
 <p>SS Catering started from a passion for cooking and a simple goal: to provide tasty, quality homemade food to people at affordable prices.</p>
 <p>Our food is prepared with the warmth of a home kitchen, using homemade masalas and carefully selected ingredients. We believe every meal should feel comforting, fresh and satisfying.</p>
@@ -66,8 +66,8 @@ footer{background:#26130b;color:#dfd0c1;padding:32px 0}.foot{display:flex;justif
 </div>
 
 <div class="featured">
-<article class="food" data-cat="biriyani"><img src="assets/biriyani.jpg" alt="Mutton Dum Biriyani"><div class="food-body"><h3>🍛 Biriyani</h3><p>South Indian style Mutton Dum Biriyani and more.</p><a class="order-mini" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20want%20to%20order%20Biriyani." target="_blank">Order Biriyani</a></div></article>
-<article class="food" data-cat="biriyani"><img src="assets/mandi.png" alt="Mandi"><div class="food-body"><h3>🍗 Mandi</h3><p>Freshly prepared Mandi with rich flavour and quality ingredients.</p><a class="order-mini" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20want%20to%20order%20Mandi." target="_blank">Order Mandi</a></div></article>
+<article class="food" data-cat="biriyani"><img src="biriyani.jpg" alt="Mutton Dum Biriyani"><div class="food-body"><h3>🍛 Biriyani</h3><p>South Indian style Mutton Dum Biriyani and more.</p><a class="order-mini" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20want%20to%20order%20Biriyani." target="_blank">Order Biriyani</a></div></article>
+<article class="food" data-cat="biriyani"><img src="mandi.png" alt="Mandi"><div class="food-body"><h3>🍗 Mandi</h3><p>Freshly prepared Mandi with rich flavour and quality ingredients.</p><a class="order-mini" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20want%20to%20order%20Mandi." target="_blank">Order Mandi</a></div></article>
 </div>
 
 <div class="menu-grid">
@@ -97,7 +97,7 @@ footer{background:#26130b;color:#dfd0c1;padding:32px 0}.foot{display:flex;justif
 
 <section id="catering" class="band"><div class="container"><div class="head"><div class="kicker" style="color:#f1bd4c">Catering</div><h2>Your Event, Your Menu, Our Homemade Taste.</h2><p style="color:#dfd0c1">Customized food orders for family gatherings, birthdays, small functions and special occasions.</p></div><div class="services"><div class="service"><div class="ico">👨‍👩‍👧‍👦</div><h3>Family Gatherings</h3><p>Comfort food for moments together.</p></div><div class="service"><div class="ico">🎂</div><h3>Birthday Parties</h3><p>Easy, tasty food for celebrations.</p></div><div class="service"><div class="ico">🍽️</div><h3>Small Functions</h3><p>Flexible quantities and menus.</p></div><div class="service"><div class="ico">✨</div><h3>Custom Orders</h3><p>Build an order around your needs.</p></div></div></div></section>
 
-<section id="gallery"><div class="container"><div class="head"><div class="kicker">Our Food</div><h2>Real Food. Real Taste.</h2><p>Freshly prepared with the care of a home kitchen.</p></div><div class="gallery"><img src="assets/biriyani.jpg" alt="Biriyani"><img src="assets/mandi.png" alt="Mandi"><img src="assets/biriyani.jpg" alt="Homemade biriyani"><img src="assets/mandi.png" alt="Mandi dish"><img src="assets/biriyani.jpg" alt="SS Catering food"></div></div></section>
+<section id="gallery"><div class="container"><div class="head"><div class="kicker">Our Food</div><h2>Real Food. Real Taste.</h2><p>Freshly prepared with the care of a home kitchen.</p></div><div class="gallery"><img src="biriyani.jpg" alt="Biriyani"><img src="mandi.png" alt="Mandi"><img src="biriyani.jpg" alt="Homemade biriyani"><img src="mandi.png" alt="Mandi dish"><img src="biriyani.jpg" alt="SS Catering food"></div></div></section>
 
 <section id="contact"><div class="container"><div class="head"><div class="kicker">Order & Enquiries</div><h2>Let's make your next meal special.</h2><p>Contact SS Catering for regular orders or customized catering.</p></div><div class="contact">
 <div class="contact-card"><div class="contact-row">📍 <div><strong>Location</strong><span>Ayyampettai, Thanjavur, Tamil Nadu, India</span></div></div><div class="contact-row">📞 <div><strong>Call / WhatsApp</strong><span>+91 99441 63499</span></div></div><div class="contact-row">🚚 <div><strong>Home Delivery</strong><span>Available for orders above ₹200</span></div></div><div class="contact-row">📷 <div><strong>Instagram</strong><span>@ss_catering._</span></div></div></div>
