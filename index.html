@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="SS Catering - Freshly prepared homemade food with the love of Mom. Biriyani, Mandi, Shawarma, snacks, tiffin and customized catering in Ayyampettai, Thanjavur.">
+<meta name="theme-color" content="#3a1f12">
+<title>SS Catering | The Taste of Mom</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Pacifico&display=swap');
+:root{--brown:#351b0f;--brown2:#5a3020;--gold:#d6a13b;--cream:#fffaf1;--cream2:#f4e5cd;--green:#2f6b3a;--red:#a92e20;--white:#fff;--muted:#756455;--line:#ead9c1;--shadow:0 14px 35px rgba(53,27,15,.10)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--brown);font-family:"DM Sans",Arial,sans-serif;line-height:1.55}img{max-width:100%;display:block}a{text-decoration:none;color:inherit}.container{width:min(1180px,92%);margin:auto}
+.top{background:var(--brown);color:#fff;text-align:center;font-size:13px;padding:8px}.header{position:sticky;top:0;z-index:100;background:rgba(255,250,241,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.logo{display:flex;align-items:center;gap:12px;min-width:220px}.logo img{width:68px;height:68px;object-fit:contain}.logo b{font:700 23px "Playfair Display";display:block}.logo small{font-size:10px;letter-spacing:1.5px;color:var(--green);font-weight:700}
+.navlinks{display:flex;align-items:center;gap:25px;font-size:14px;font-weight:700}.navlinks a:hover{color:var(--red)}.wa{background:#1da851;color:#fff;padding:12px 18px;border-radius:999px;font-weight:800;white-space:nowrap}
+.hero{min-height:610px;background:linear-gradient(90deg,rgba(37,18,9,.95),rgba(37,18,9,.72) 42%,rgba(37,18,9,.18)),url("assets/biriyani.jpg") center/cover;display:flex;align-items:center;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;right:-8%;bottom:-120px;width:60%;height:240px;background:var(--cream);border-radius:50%}
+.hero-content{position:relative;z-index:2;color:#fff;max-width:700px;padding:75px 0}.eyebrow{color:#f0bd4d;text-transform:uppercase;letter-spacing:2px;font-size:13px;font-weight:800}.hero h1{font:600 clamp(48px,6vw,76px)/1.05 "Playfair Display";margin:15px 0}.hero h1 span{font-family:Pacifico;color:#f1bd4c;font-size:.72em}.hero p{font-size:18px;color:#f7eee4;max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:0;border-radius:999px;padding:13px 21px;font-weight:800;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}.primary{background:#efba48;color:var(--brown)}.outline{border:1px solid #fff;color:#fff;background:rgba(255,255,255,.08)}.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}.badge{padding:8px 12px;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.1);border-radius:999px;font-size:12px}
+section{padding:85px 0}.head{text-align:center;max-width:720px;margin:0 auto 40px}.kicker{font-size:12px;text-transform:uppercase;letter-spacing:2px;color:var(--green);font-weight:800}.head h2{font:600 clamp(34px,5vw,50px)/1.1 "Playfair Display";margin:9px 0}.head p{color:var(--muted)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about-photo{border-radius:30px;overflow:hidden;box-shadow:var(--shadow);background:#e7d3b7}.about-photo img{width:100%;height:500px;object-fit:cover}.about-copy p{color:var(--muted)}.features{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px}.feature{background:#fff;border:1px solid var(--line);border-radius:18px;padding:17px}.feature strong{display:block}.feature span{font-size:13px;color:var(--muted)}
+.menu-wrap{background:#fff}.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:28px}.tab{border:1px solid var(--line);background:#fff;padding:10px 15px;border-radius:999px;white-space:nowrap;font-weight:700;color:var(--brown);cursor:pointer}.tab.active,.tab:hover{background:var(--brown);color:#fff}.menu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{background:var(--cream);border:1px solid var(--line);border-radius:23px;padding:21px;box-shadow:0 8px 22px rgba(53,27,15,.05)}.card h3{font:600 25px "Playfair Display";margin:0 0 12px}.card small{color:var(--muted)}.items>div{display:flex;justify-content:space-between;gap:12px;padding:8px 2px;border-bottom:1px dashed #dfcdb4;font-size:14px}.items>div:last-child{border-bottom:0}.items b{color:var(--red);white-space:nowrap}.featured{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px}.food{background:#fff;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:var(--shadow)}.food img{width:100%;height:300px;object-fit:cover}.food-body{padding:19px}.food-body h3{font:600 28px "Playfair Display";margin:0}.food-body p{margin:4px 0 14px;color:var(--muted)}.order-mini{background:#178c45;color:#fff;padding:10px 15px;border-radius:999px;font-size:13px;font-weight:800;display:inline-block}
+.band{background:var(--brown);color:#fff}.services{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.service{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:26px 18px;text-align:center}.service .ico{font-size:30px}.service h3{font:600 21px "Playfair Display"}.service p{font-size:13px;color:#dfd0c1}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:220px 220px;gap:14px}.gallery img{width:100%;height:100%;object-fit:cover;border-radius:20px}.gallery img:first-child{grid-row:span 2}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact-card,.form{background:#fff;border:1px solid var(--line);border-radius:25px;padding:30px;box-shadow:var(--shadow)}.contact-row{display:flex;gap:14px;padding:15px 0;border-bottom:1px solid #f0e5d7}.contact-row:last-child{border:0}.contact-row strong{display:block}.contact-row span{font-size:14px;color:var(--muted)}form{display:grid;gap:12px}input,select,textarea{width:100%;padding:14px 15px;border:1px solid #dfcfbb;border-radius:12px;background:#fffdf9;font:inherit}textarea{min-height:125px;resize:vertical}.submit{background:var(--brown);color:#fff}
+.delivery{margin-top:30px;background:linear-gradient(135deg,#f1ddbb,#fffaf1);border:1px solid #e4cda8;border-radius:24px;padding:24px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px}.delivery strong{display:block;color:var(--green)}.delivery span{font-size:13px;color:var(--muted)}
+footer{background:#26130b;color:#dfd0c1;padding:32px 0}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.foot strong{color:#fff}.float{position:fixed;right:22px;bottom:20px;z-index:150;background:#1da851;color:#fff;border-radius:999px;padding:14px 18px;font-weight:800;box-shadow:0 10px 25px rgba(0,0,0,.25)}
+@media(max-width:1050px){.navlinks{gap:15px}.logo{min-width:180px}.services{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:800px){.nav{height:70px}.logo img{width:52px;height:52px}.logo b{font-size:19px}.navlinks{display:none}.wa{padding:10px 14px;font-size:12px}.hero{min-height:620px}.about,.contact,.featured{grid-template-columns:1fr}.menu-grid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:170px 170px}.gallery img:first-child{grid-column:span 2;grid-row:span 1}}
+@media(max-width:520px){section{padding:62px 0}.hero-content{padding:60px 0}.hero h1{font-size:46px}.hero p{font-size:16px}.services,.features{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:140px 140px}.delivery{grid-template-columns:1fr;text-align:center}.foot{flex-direction:column;text-align:center}.float{right:12px;bottom:12px}}
+</style>
+</head>
+<body>
+<div class="top">Freshly prepared homemade food • Customized orders • Home delivery above ₹200</div>
+
+<header class="header">
+<div class="container nav">
+<a class="logo" href="#home"><img src="assets/logo.png" alt="SS Catering logo"><span><b>SS Catering</b><small>THE TASTE OF MOM</small></span></a>
+<nav class="navlinks">
+<a href="#home">Home</a><a href="#about">About</a><a href="#menu">Menu</a><a href="#catering">Catering</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+</nav>
+<a class="wa" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank">☏ +91 99441 63499</a>
+</div>
+</header>
+
+<main id="home">
+<section class="hero"><div class="container"><div class="hero-content">
+<div class="eyebrow">Homemade • Fresh • Affordable</div>
+<h1>Freshly Home Food Prepared<br><span>with the Love of Mom</span> ❤️</h1>
+<p>Authentic homemade food prepared with care, homemade masalas and quality ingredients. From everyday meals to customized catering, SS Catering brings the comfort of home to your table.</p>
+<div class="actions"><a class="btn primary" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank">💬 Order on WhatsApp</a><a class="btn outline" href="#menu">Explore Menu →</a></div>
+<div class="badges"><span class="badge">✓ Veg & Non-Veg</span><span class="badge">✓ Homemade Masalas</span><span class="badge">✓ No Added Preservatives</span><span class="badge">✓ Home Delivery</span></div>
+</div></div></section>
+
+<section id="about"><div class="container about">
+<div class="about-photo"><img src="assets/biriyani.jpg" alt="SS Catering homemade biriyani"></div>
+<div class="about-copy"><div class="kicker">About SS Catering</div><h2>Good food starts with good care.</h2>
+<p>SS Catering started from a passion for cooking and a simple goal: to provide tasty, quality homemade food to people at affordable prices.</p>
+<p>Our food is prepared with the warmth of a home kitchen, using homemade masalas and carefully selected ingredients. We believe every meal should feel comforting, fresh and satisfying.</p>
+<div class="features"><div class="feature"><strong>❤️ Made with Love</strong><span>Food with the warmth of a family kitchen.</span></div><div class="feature"><strong>🌿 Fresh & Quality</strong><span>Freshly prepared for every order.</span></div><div class="feature"><strong>🥘 Homemade Masalas</strong><span>Authentic homemade flavour.</span></div><div class="feature"><strong>💰 Affordable</strong><span>Quality food at friendly prices.</span></div></div>
+</div></div></section>
+
+<section id="menu" class="menu-wrap"><div class="container">
+<div class="head"><div class="kicker">Our Menu</div><h2>Fresh Food. Homemade Taste.</h2><p>Browse the menu below. Prices are shown exactly as provided by SS Catering.</p></div>
+
+<div class="tabs">
+<button class="tab active" data-filter="all">All Menu</button><button class="tab" data-filter="biriyani">Biriyani & Mandi</button><button class="tab" data-filter="rice">Rice & Combos</button><button class="tab" data-filter="gravy">Gravy & Sides</button><button class="tab" data-filter="tiffin">Tiffin & Dinner</button><button class="tab" data-filter="shawarma">Shawarma & Snacks</button><button class="tab" data-filter="more">More</button>
+</div>
+
+<div class="featured">
+<article class="food" data-cat="biriyani"><img src="assets/biriyani.jpg" alt="Mutton Dum Biriyani"><div class="food-body"><h3>🍛 Biriyani</h3><p>South Indian style Mutton Dum Biriyani and more.</p><a class="order-mini" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20want%20to%20order%20Biriyani." target="_blank">Order Biriyani</a></div></article>
+<article class="food" data-cat="biriyani"><img src="assets/mandi.png" alt="Mandi"><div class="food-body"><h3>🍗 Mandi</h3><p>Freshly prepared Mandi with rich flavour and quality ingredients.</p><a class="order-mini" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20want%20to%20order%20Mandi." target="_blank">Order Mandi</a></div></article>
+</div>
+
+<div class="menu-grid">
+<div class="card" data-cat="biriyani"><h3>Biriyani & Mandi</h3><small>Freshly prepared with homemade masala</small><div class="items"><div>Veg Biriyani <b>₹100</b></div><div>Chicken Biriyani <b>₹100</b></div><div>Mutton Biriyani <b>₹230</b></div><div>Veg Mandi <b>₹100</b></div><div>Chicken Mandi <b>₹130</b></div><div>Mutton Mandi <b>₹200</b></div><div>Chicken Pulao <b>₹150</b></div></div></div>
+
+<div class="card" data-cat="rice"><h3>Rice & Combos</h3><small>Simple, filling and homemade</small><div class="items"><div>Fish & Rice Combo <b>₹150</b></div><div>Veg Meals <b>₹120</b></div><div>Extra Rice <b>₹30</b></div></div></div>
+
+<div class="card" data-cat="gravy"><h3>Gravy & Side Dishes</h3><small>Rich homemade gravies</small><div class="items"><div>Chicken Kurma <b>₹80</b></div><div>Mutton Kurma <b>₹100</b></div><div>Chicken Gravy <b>₹120</b></div><div>Mutton Gravy <b>₹160</b></div><div>Kadai Gravy <b>₹120</b></div><div>Egg Gravy <b>₹100</b></div><div>Bootti Gravy <b>₹120</b></div><div>Paneer Gravy <b>₹120</b></div><div>Channa Gravy <b>₹60</b></div><div>Pataani Gravy <b>₹60</b></div><div>Sundal Gravy <b>₹60</b></div><div>Paneer Fry <b>₹100</b></div></div></div>
+
+<div class="card" data-cat="fry"><h3>Fry & Soup</h3><small>Hot and freshly cooked</small><div class="items"><div>Chicken 65 <b>₹70</b></div><div>Chicken Fry <b>₹80</b></div><div>Pepper Chicken <b>₹80</b></div><div>Fish Fry <b>₹80</b></div><div>Sundal <b>₹30</b></div><div>Chicken Soup <b>₹50</b></div><div>Veg Soup <b>₹30</b></div></div></div>
+
+<div class="card" data-cat="more"><h3>Noodles, Pasta & Pizza</h3><small>Freshly made to order</small><div class="items"><div>Chicken Noodles <b>₹120</b></div><div>Egg Noodles <b>₹80</b></div><div>Veg Noodles <b>₹70</b></div><div>Chicken Pasta <b>₹100</b></div><div>Veg Pasta <b>₹60</b></div><div>Chicken Pizza <b>₹150</b></div><div>Veg Pizza <b>₹100</b></div><div>Cheese Balls <b>₹100</b></div></div></div>
+
+<div class="card" data-cat="tiffin"><h3>Tiffin & Dinner</h3><small>Comfort food for every day</small><div class="items"><div>Idly (per piece) <b>₹6</b></div><div>Dosa <b>₹12</b></div><div>Egg Dosa <b>₹25</b></div><div>Chicken Dosa <b>₹40</b></div><div>Parotta <b>₹12</b></div><div>Egg Parotta <b>₹25</b></div><div>Chicken Parotta <b>₹40</b></div><div>Kari Parotta <b>₹60</b></div><div>Chapati <b>₹12</b></div><div>Poori <b>₹12</b></div><div>Idiyappam <b>₹10</b></div><div>Semiya <b>₹30</b></div></div></div>
+
+<div class="card" data-cat="shawarma"><h3>Shawarma & Snacks</h3><small>Fresh snacks and quick bites</small><div class="items"><div>Chicken Shawarma <b>₹60</b></div><div>Egg Shawarma <b>₹60</b></div><div>Shawarma Roll <b>₹50</b></div><div>Chicken 65 Roll <b>₹70</b></div><div>Chicken Spring Roll <b>₹50</b></div><div>Samosa <b>₹12</b></div><div>Veg Samosa <b>₹8</b></div><div>Egg Puff <b>₹20</b></div><div>Chicken Puff <b>₹30</b></div><div>Vadai <b>₹10</b></div><div>Bajji <b>₹6</b></div><div>Bonda <b>₹6</b></div></div></div>
+
+<div class="card" data-cat="more"><h3>Pickles & Masala Powders</h3><small>Homemade pantry favourites</small><div class="items"><div>Lemon Pickle <b>₹60</b></div><div>Mango Pickle <b>₹60</b></div><div>Garlic Pickle <b>₹60</b></div><div>Ginger Pickle <b>₹60</b></div><div>Mixed Pickle <b>₹80</b></div><div>Chicken Masala <b>₹150</b></div><div>Mutton Masala <b>₹150</b></div><div>Biriyani Masala <b>₹150</b></div><div>Chicken 65 Masala <b>₹150</b></div><div>Garam Masala <b>₹150</b></div><div>Sambar Powder <b>₹150</b></div><div>Rasam Powder <b>₹80</b></div></div></div>
+
+<div class="card" data-cat="more"><h3>Desserts & Sweets</h3><small>Sweet endings, made with care</small><div class="items"><div>Kesari <b>₹30</b></div><div>Gulab Jamun <b>₹20</b></div><div>Payasam <b>₹30</b></div><div>Carrot Halwa <b>₹30</b></div><div>Bread Halwa <b>₹30</b></div><div>Fruit Custard <b>₹30</b></div></div></div>
+
+<div class="card" data-cat="more"><h3>Rice Varieties</h3><small>Additional rice options</small><div class="items"><div>Mutton Fry Rice <b>₹180</b></div><div>Chicken Fry Rice <b>₹120</b></div><div>Egg Rice <b>₹100</b></div><div>Veg Rice <b>₹80</b></div></div></div>
+</div>
+
+<div class="delivery"><div><strong>🛵 Home Delivery Available</strong><span>Available for orders above ₹200.</span></div><a class="btn primary" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank">💬 Order on WhatsApp</a><div><strong>😊 Customized Orders Accepted</strong><span>For parties, functions and special occasions.</span></div></div>
+</div></section>
+
+<section id="catering" class="band"><div class="container"><div class="head"><div class="kicker" style="color:#f1bd4c">Catering</div><h2>Your Event, Your Menu, Our Homemade Taste.</h2><p style="color:#dfd0c1">Customized food orders for family gatherings, birthdays, small functions and special occasions.</p></div><div class="services"><div class="service"><div class="ico">👨‍👩‍👧‍👦</div><h3>Family Gatherings</h3><p>Comfort food for moments together.</p></div><div class="service"><div class="ico">🎂</div><h3>Birthday Parties</h3><p>Easy, tasty food for celebrations.</p></div><div class="service"><div class="ico">🍽️</div><h3>Small Functions</h3><p>Flexible quantities and menus.</p></div><div class="service"><div class="ico">✨</div><h3>Custom Orders</h3><p>Build an order around your needs.</p></div></div></div></section>
+
+<section id="gallery"><div class="container"><div class="head"><div class="kicker">Our Food</div><h2>Real Food. Real Taste.</h2><p>Freshly prepared with the care of a home kitchen.</p></div><div class="gallery"><img src="assets/biriyani.jpg" alt="Biriyani"><img src="assets/mandi.png" alt="Mandi"><img src="assets/biriyani.jpg" alt="Homemade biriyani"><img src="assets/mandi.png" alt="Mandi dish"><img src="assets/biriyani.jpg" alt="SS Catering food"></div></div></section>
+
+<section id="contact"><div class="container"><div class="head"><div class="kicker">Order & Enquiries</div><h2>Let's make your next meal special.</h2><p>Contact SS Catering for regular orders or customized catering.</p></div><div class="contact">
+<div class="contact-card"><div class="contact-row">📍 <div><strong>Location</strong><span>Ayyampettai, Thanjavur, Tamil Nadu, India</span></div></div><div class="contact-row">📞 <div><strong>Call / WhatsApp</strong><span>+91 99441 63499</span></div></div><div class="contact-row">🚚 <div><strong>Home Delivery</strong><span>Available for orders above ₹200</span></div></div><div class="contact-row">📷 <div><strong>Instagram</strong><span>@ss_catering._</span></div></div></div>
+<div class="form"><form id="orderForm"><input id="name" required placeholder="Your Name"><input id="phone" required placeholder="Phone Number"><select id="type"><option>Regular Food Order</option><option>Catering / Bulk Order</option><option>Custom Order</option><option>General Enquiry</option></select><textarea id="msg" placeholder="What would you like to order?"></textarea><button class="btn submit" type="submit">Send Enquiry on WhatsApp →</button></form></div>
+</div></div></section>
+</main>
+
+<a class="float" href="https://wa.me/919944163499?text=Hi%20SS%20Catering%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank">💬 Order Now</a>
+<footer><div class="container foot"><div><strong>SS Catering</strong><br><small>The Taste of Mom • Ayyampettai, Thanjavur</small></div><div><small>+91 99441 63499 • Good Food • Good Mood</small></div></div></footer>
+
+<script>
+const tabs=document.querySelectorAll(".tab");
+const cards=document.querySelectorAll(".card,.food");
+tabs.forEach(tab=>tab.addEventListener("click",()=>{
+  tabs.forEach(t=>t.classList.remove("active")); tab.classList.add("active");
+  const f=tab.dataset.filter;
+  cards.forEach(c=>{c.style.display=(f==="all"||c.dataset.cat===f||(f==="more"&&c.dataset.cat==="more"))?"":"none"});
+}));
+document.getElementById("orderForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const n=document.getElementById("name").value, p=document.getElementById("phone").value;
+  const t=document.getElementById("type").value, m=document.getElementById("msg").value;
+  const text=`Hi SS Catering!%0A%0AName: ${encodeURIComponent(n)}%0APhone: ${encodeURIComponent(p)}%0AOrder Type: ${encodeURIComponent(t)}%0ADetails: ${encodeURIComponent(m)}`;
+  window.open("https://wa.me/919944163499?text="+text,"_blank");
+});
+</script>
+</body>
+</html>
